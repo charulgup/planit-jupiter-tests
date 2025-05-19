@@ -1,0 +1,5 @@
+utils\ExtentReportManager.class
+planittesting\automation\planit_jupiter_tests\BasePage.class
+planittesting\automation\planit_jupiter_tests\ShopPage.class
+planittesting\automation\planit_jupiter_tests\ContactPage.class
+planittesting\automation\planit_jupiter_tests\HomePage.class

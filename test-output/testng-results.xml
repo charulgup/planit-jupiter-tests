@@ -1,59 +1,128 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-18T23:45:00 ACST" name="PlanitJupiter Automation Suite" finished-at="2025-05-18T23:45:52 ACST" duration-ms="52323">
+  <suite started-at="2025-05-19T19:29:58 ACST" name="PlanitJupiter Automation Suite" finished-at="2025-05-19T19:30:51 ACST" duration-ms="53263">
     <groups>
     </groups>
-    <test started-at="2025-05-18T23:45:00 ACST" name="Jupiter UI Tests" finished-at="2025-05-18T23:45:52 ACST" duration-ms="52323">
+    <test started-at="2025-05-19T19:29:58 ACST" name="Jupiter UI Tests" finished-at="2025-05-19T19:30:51 ACST" duration-ms="53263">
       <class name="planittesting.automation.planit_jupiter_tests.ContactPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@1573f9fc]" started-at="2025-05-18T23:45:01 ACST" name="setUp" finished-at="2025-05-18T23:45:09 ACST" duration-ms="8602" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T19:29:59 ACST" name="setUp" finished-at="2025-05-19T19:30:05 ACST" duration-ms="6744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testContactFormErrorMessages()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@1573f9fc]" started-at="2025-05-18T23:45:09 ACST" name="testContactFormErrorMessages" finished-at="2025-05-18T23:45:14 ACST" duration-ms="5077" status="PASS">
+        <test-method signature="testContactFormErrorMessages()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T19:30:05 ACST" name="testContactFormErrorMessages" finished-at="2025-05-19T19:30:08 ACST" duration-ms="2517" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContactFormErrorMessages -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@1573f9fc]" started-at="2025-05-18T23:45:14 ACST" name="tearDown" finished-at="2025-05-18T23:45:15 ACST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T19:30:08 ACST" name="tearDown" finished-at="2025-05-19T19:30:08 ACST" duration-ms="411" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@1573f9fc]" started-at="2025-05-18T23:45:15 ACST" name="setUp" finished-at="2025-05-18T23:45:18 ACST" duration-ms="2923" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T19:30:08 ACST" name="setUp" finished-at="2025-05-19T19:30:12 ACST" duration-ms="3879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@1573f9fc]" started-at="2025-05-18T23:45:18 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-18T23:45:26 ACST" duration-ms="8330" status="PASS">
+        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T19:30:12 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-19T19:30:27 ACST" duration-ms="14348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulContactFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@1573f9fc]" started-at="2025-05-18T23:45:26 ACST" name="tearDown" finished-at="2025-05-18T23:45:26 ACST" duration-ms="381" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T19:30:27 ACST" name="tearDown" finished-at="2025-05-19T19:30:27 ACST" duration-ms="457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@1573f9fc]" started-at="2025-05-18T23:45:26 ACST" name="setUp" finished-at="2025-05-18T23:45:33 ACST" duration-ms="6580" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T19:30:27 ACST" name="setUp" finished-at="2025-05-19T19:30:31 ACST" duration-ms="4380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@1573f9fc]" started-at="2025-05-18T23:45:33 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-18T23:45:42 ACST" duration-ms="8910" status="PASS">
+        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T19:30:31 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-19T19:30:41 ACST" duration-ms="9165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulContactFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@1573f9fc]" started-at="2025-05-18T23:45:42 ACST" name="tearDown" finished-at="2025-05-18T23:45:42 ACST" duration-ms="348" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T19:30:41 ACST" name="tearDown" finished-at="2025-05-19T19:30:43 ACST" duration-ms="1978" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- planittesting.automation.planit_jupiter_tests.ContactPageTests -->
       <class name="planittesting.automation.planit_jupiter_tests.ShoppingCartTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@26794848]" started-at="2025-05-18T23:45:42 ACST" name="setUp" finished-at="2025-05-18T23:45:45 ACST" duration-ms="2939" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@302552ec]" started-at="2025-05-19T19:30:43 ACST" name="setUp" finished-at="2025-05-19T19:30:47 ACST" duration-ms="4798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testShoppingCartFunctionality()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@26794848]" started-at="2025-05-18T23:45:45 ACST" name="testShoppingCartFunctionality" finished-at="2025-05-18T23:45:52 ACST" duration-ms="6717" status="PASS">
+        <test-method signature="testShoppingCartFunctionality()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@302552ec]" started-at="2025-05-19T19:30:47 ACST" name="testShoppingCartFunctionality" finished-at="2025-05-19T19:30:51 ACST" duration-ms="3551" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[invalid selector: Unable to locate an element with the xpath expression //td[normalize-space(text())='Stuffed Frog']/following-sibling::td[1]2 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//td[normalize-space(text())='Stuffed Frog']/following-sibling::td[1]2' is not a valid XPath expression.
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12abab41ab283e601e8bd47c93e52dcc, findElement {value=//td[normalize-space(text())='Stuffed Frog']/following-sibling::td[1]2, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61846/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12abab41ab283e601e8bd47c93e52dcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //td[normalize-space(text())='Stuffed Frog']/following-sibling::td[1]2 because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//td[normalize-space(text())='Stuffed Frog']/following-sibling::td[1]2' is not a valid XPath expression.
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12abab41ab283e601e8bd47c93e52dcc, findElement {value=//td[normalize-space(text())='Stuffed Frog']/following-sibling::td[1]2, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61846/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 12abab41ab283e601e8bd47c93e52dcc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at planittesting.automation.planit_jupiter_tests.ShopPage.verifyProductPrice(ShopPage.java:45)
+at planittesting.automation.planit_jupiter_tests.ShoppingCartTests.testShoppingCartFunctionality(ShoppingCartTests.java:19)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testShoppingCartFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@26794848]" started-at="2025-05-18T23:45:52 ACST" name="tearDown" finished-at="2025-05-18T23:45:52 ACST" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@302552ec]" started-at="2025-05-19T19:30:51 ACST" name="tearDown" finished-at="2025-05-19T19:30:51 ACST" duration-ms="297" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

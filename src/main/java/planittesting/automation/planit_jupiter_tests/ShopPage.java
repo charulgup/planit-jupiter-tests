@@ -21,8 +21,11 @@ public class ShopPage extends BasePage {
     }
     
     public void buyItem(String productName, int quantity) {
+    	 WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+    	 
         for (int i = 0; i < quantity; i++) {
-            driver.findElement(By.xpath("//h4[text()='" + productName + "']/following-sibling::p/a[text()='Buy']")).click();
+        	wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//h4[text()='" + productName + "']/following-sibling::p/a[text()='Buy']"))).click();
+            //driver.findElement(By.xpath("//h4[text()='" + productName + "']/following-sibling::p/a[text()='Buy']")).click();
         }
     }
     
@@ -39,7 +42,7 @@ public class ShopPage extends BasePage {
 
     public boolean verifyProductPrice(String productName) {
         try {
-            WebElement priceElement = driver.findElement(By.xpath("//td[normalize-space(text())='" + productName + "']/following-sibling::td[1]"));
+            WebElement priceElement = driver.findElement(By.xpath("//td[normalize-space(text())='" + productName + "']/following-sibling::td[1]2"));
             return priceElement.getText().matches("\\$\\d+\\.\\d{2}");
         } catch (NoSuchElementException e) {
             return false;

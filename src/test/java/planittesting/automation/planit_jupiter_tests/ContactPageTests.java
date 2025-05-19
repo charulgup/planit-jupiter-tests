@@ -1,8 +1,10 @@
 package planittesting.automation.planit_jupiter_tests;
 
 import java.time.Duration;
+import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
@@ -11,41 +13,65 @@ import org.testng.asserts.SoftAssert;
 public class ContactPageTests extends BaseTest {
 
     @Test
-             public void testContactFormErrorMessages() {
-    	     ContactPage Contact = new HomePage(driver).goToContactPage();
-    	    
-    	     WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    	     wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("forename"))); 
-    	     Contact.clickSubmit();
-            SoftAssert softAssert = new SoftAssert();
-            Contact.verifyInitialErrorMessages(softAssert);
+    public void testContactFormErrorMessages() {
+        ContactPage contact = new HomePage(driver).goToContactPage();
 
-            Contact.fillMandatoryFields("Charul", "Charul@test.com", "This is my Test message");
-            Contact.verifyErrorsAreCleared(softAssert);
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("forename")));
 
-            softAssert.assertAll();
+        contact.clickSubmit();
+
+        SoftAssert softAssert = new SoftAssert();
+
+        // Verify header error message
+        String actualHeaderMsg = contact.getHeaderErrorMessage();
+        softAssert.assertEquals(actualHeaderMsg,
+            "We welcome your feedback - but we won't get it unless you complete the form correctly.",
+            "Header error message mismatch");
+
+        // Verify individual field error messages
+        List<String> actualErrorMessages = contact.getFieldErrorMessages();
+        String[] expectedMessages = {"Forename is required", "Email is required", "Message is required"};
+
+        for (String expected : expectedMessages) {
+            boolean found = false;
+            for (String actual : actualErrorMessages) {
+                if (actual.equals(expected)) {
+                    found = true;
+                    break;
+                }
+            }
+            softAssert.assertTrue(found, "Expected error message not found: " + expected);
         }
-    
-@Test(invocationCount = 2)
-public void testSuccessfulContactFormSubmission() throws InterruptedException {
-    ContactPage contact = new HomePage(driver).goToContactPage();
-    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-    wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("forename")));
 
-    contact.fillMandatoryFields("John", "john@example.com", "This is a test message");
-    contact.clickSubmit();
+        // Fill form and verify error messages are cleared
+        contact.fillMandatoryFields("Charul", "charul@test.com", "This is a test message");
 
-    SoftAssert softAssert = new SoftAssert();
-    Thread.sleep(5000);
-    
+        List<WebElement> errorElements = contact.getFieldErrorElements();
+        for (WebElement errorElement : errorElements) {
+            softAssert.assertTrue(errorElement.getText().isEmpty(),
+                "Error not cleared for element with text: " + errorElement.getText());
+        }
 
-    String expectedSuccessMsg = "Thanks John, we appreciate your feedback.";
-    String actualSuccessMsg = contact.getSuccessMessage();
+        softAssert.assertAll();
+    }
 
-    softAssert.assertEquals(actualSuccessMsg, expectedSuccessMsg, "Success message mismatch");
+    @Test(invocationCount = 2)
+    public void testSuccessfulContactFormSubmission() throws InterruptedException {
+        ContactPage contact = new HomePage(driver).goToContactPage();
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("forename")));
 
-    softAssert.assertAll();
-    
+        contact.fillMandatoryFields("John", "john@example.com", "This is a test message");
+        contact.clickSubmit();
+
+        SoftAssert softAssert = new SoftAssert();
+        Thread.sleep(5000); // Optional: Replace with a better wait if needed
+
+        String expectedSuccessMsg = "Thanks John, we appreciate your feedback.";
+        String actualSuccessMsg = contact.getSuccessMessage();
+
+        softAssert.assertEquals(actualSuccessMsg, expectedSuccessMsg, "Success message mismatch");
+        softAssert.assertAll();
+    }
 }
-}
-     

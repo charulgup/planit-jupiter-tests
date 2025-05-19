@@ -7,7 +7,7 @@ import org.testng.annotations.*;
 
 public class BaseTest {
     protected WebDriver driver;
-
+    
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
         WebDriverManager.chromedriver().setup();
@@ -21,5 +21,8 @@ public class BaseTest {
         if (driver != null) {
             driver.quit();
         }
+    }
+    public WebDriver getDriver() {
+        return driver;
     }
 }
