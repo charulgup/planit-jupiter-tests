@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-PlanitJupiter_Automation_Suite" class="navigator-link">
-              <span class="suite-name border-failed">PlanitJupiter Automation Suite</span>
+              <span class="suite-name border-passed">PlanitJupiter Automation Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -92,21 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-PlanitJupiter_Automation_Suite" class="hide-methods failed suite-PlanitJupiter_Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-PlanitJupiter_Automation_Suite -->
-                      <a href="#" panel-name="suite-PlanitJupiter_Automation_Suite" class="show-methods failed suite-PlanitJupiter_Automation_Suite"> (show)</a> <!-- show-methods failed suite-PlanitJupiter_Automation_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-PlanitJupiter_Automation_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-PlanitJupiter_Automation_Suite" title="planittesting.automation.planit_jupiter_tests.ShoppingCartTests" class="method navigator-link" hash-for-method="testShoppingCartFunctionality">testShoppingCartFunctionality</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-PlanitJupiter_Automation_Suite -->
+                    <span class="method-stats">7 methods,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,6 +104,26 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-PlanitJupiter_Automation_Suite" title="planittesting.automation.planit_jupiter_tests.ContactPageTests" class="method navigator-link" hash-for-method="testContactFormErrorMessages">testContactFormErrorMessages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PlanitJupiter_Automation_Suite" title="planittesting.automation.planit_jupiter_tests.ShoppingCartTests" class="method navigator-link" hash-for-method="testShoppingCartFunctionality">testShoppingCartFunctionality</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PlanitJupiter_Automation_Suite" title="planittesting.automation.planit_jupiter_tests.ContactPageTests" class="method navigator-link" hash-for-method="testSuccessfulContactFormSubmission">testSuccessfulContactFormSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PlanitJupiter_Automation_Suite" title="planittesting.automation.planit_jupiter_tests.ContactPageTests" class="method navigator-link" hash-for-method="testSuccessfulContactFormSubmission">testSuccessfulContactFormSubmission</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-PlanitJupiter_Automation_Suite" title="planittesting.automation.planit_jupiter_tests.ContactPageTests" class="method navigator-link" hash-for-method="testSuccessfulContactFormSubmission">testSuccessfulContactFormSubmission</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -142,47 +148,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-PlanitJupiter_Automation_Suite" class="panel PlanitJupiter_Automation_Suite">
-          <div class="suite-PlanitJupiter_Automation_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">planittesting.automation.planit_jupiter_tests.ShoppingCartTests</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testShoppingCartFunctionality">
-                  </a> <!-- testShoppingCartFunctionality -->
-                  <span class="method-name">testShoppingCartFunctionality</span>
-                  <div class="stack-trace">org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //td[normalize-space(text())=&apos;Stuffed Frog&apos;]/following-sibling::td[1]2 because of the following error:
-SyntaxError: Failed to execute &apos;evaluate&apos; on &apos;Document&apos;: The string &apos;//td[normalize-space(text())=&apos;Stuffed Frog&apos;]/following-sibling::td[1]2&apos; is not a valid XPath expression.
-  (Session info: chrome=136.0.7103.114)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.6&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [12abab41ab283e601e8bd47c93e52dcc, findElement {value=//td[normalize-space(text())=&apos;Stuffed Frog&apos;]/following-sibling::td[1]2, using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61846/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 12abab41ab283e601e8bd47c93e52dcc
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at planittesting.automation.planit_jupiter_tests.ShopPage.verifyProductPrice(ShopPage.java:45)
-	at planittesting.automation.planit_jupiter_tests.ShoppingCartTests.testShoppingCartFunctionality(ShoppingCartTests.java:19)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-PlanitJupiter_Automation_Suite-class-failed -->
           <div class="suite-PlanitJupiter_Automation_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -208,6 +173,42 @@ Session ID: 12abab41ab283e601e8bd47c93e52dcc
                   <a name="testSuccessfulContactFormSubmission">
                   </a> <!-- testSuccessfulContactFormSubmission -->
                   <span class="method-name">testSuccessfulContactFormSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulContactFormSubmission">
+                  </a> <!-- testSuccessfulContactFormSubmission -->
+                  <span class="method-name">testSuccessfulContactFormSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulContactFormSubmission">
+                  </a> <!-- testSuccessfulContactFormSubmission -->
+                  <span class="method-name">testSuccessfulContactFormSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSuccessfulContactFormSubmission">
+                  </a> <!-- testSuccessfulContactFormSubmission -->
+                  <span class="method-name">testSuccessfulContactFormSubmission</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-PlanitJupiter_Automation_Suite-class-passed -->
+          <div class="suite-PlanitJupiter_Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">planittesting.automation.planit_jupiter_tests.ShoppingCartTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShoppingCartFunctionality">
+                  </a> <!-- testShoppingCartFunctionality -->
+                  <span class="method-name">testShoppingCartFunctionality</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -268,28 +269,40 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(7);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testSuccessfulContactFormSubmission')
 data.setCell(0, 2, 'planittesting.automation.planit_jupiter_tests.ContactPageTests')
-data.setCell(0, 3, 14348);
+data.setCell(0, 3, 12051);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testSuccessfulContactFormSubmission')
 data.setCell(1, 2, 'planittesting.automation.planit_jupiter_tests.ContactPageTests')
-data.setCell(1, 3, 9165);
+data.setCell(1, 3, 10125);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testShoppingCartFunctionality')
-data.setCell(2, 2, 'planittesting.automation.planit_jupiter_tests.ShoppingCartTests')
-data.setCell(2, 3, 3551);
+data.setCell(2, 1, 'testSuccessfulContactFormSubmission')
+data.setCell(2, 2, 'planittesting.automation.planit_jupiter_tests.ContactPageTests')
+data.setCell(2, 3, 10049);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testContactFormErrorMessages')
+data.setCell(3, 1, 'testSuccessfulContactFormSubmission')
 data.setCell(3, 2, 'planittesting.automation.planit_jupiter_tests.ContactPageTests')
-data.setCell(3, 3, 2517);
+data.setCell(3, 3, 9482);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSuccessfulContactFormSubmission')
+data.setCell(4, 2, 'planittesting.automation.planit_jupiter_tests.ContactPageTests')
+data.setCell(4, 3, 9270);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testContactFormErrorMessages')
+data.setCell(5, 2, 'planittesting.automation.planit_jupiter_tests.ContactPageTests')
+data.setCell(5, 3, 4989);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testShoppingCartFunctionality')
+data.setCell(6, 2, 'planittesting.automation.planit_jupiter_tests.ShoppingCartTests')
+data.setCell(6, 3, 4854);
 window.suiteTableData['PlanitJupiter_Automation_Suite']= { tableData: data, tableDiv: 'times-div-PlanitJupiter_Automation_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 29 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-PlanitJupiter_Automation_Suite">
               </div> <!-- times-div-PlanitJupiter_Automation_Suite -->
             </div> <!-- times-div -->
@@ -322,52 +335,86 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testContactFormErrorMessages</span>
-                <span class="method-start">6746 ms</span>
+                <span class="method-start">7772 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">9276 ms</span>
+                <span class="method-start">12767 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">9689 ms</span>
+                <span class="method-start">13099 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSuccessfulContactFormSubmission</span>
-                <span class="method-start">13570 ms</span>
+                <span class="method-start">18124 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">27920 ms</span>
+                <span class="method-start">28178 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">28379 ms</span>
+                <span class="method-start">28548 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testSuccessfulContactFormSubmission</span>
-                <span class="method-start">32759 ms</span>
+                <span class="method-start">34239 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41928 ms</span>
+                <span class="method-start">46290 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulContactFormSubmission</span>
+                <span class="method-start">52744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">63288 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulContactFormSubmission</span>
+                <span class="method-start">68609 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">77882 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">78259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSuccessfulContactFormSubmission</span>
+                <span class="method-start">83266 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">92750 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">planittesting.automation.planit_jupiter_tests.ShoppingCartTests</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">43909 ms</span>
+                <span class="method-start">93127 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">testShoppingCartFunctionality</span>
-                <span class="method-start">48707 ms</span>
+                <span class="method-start">99707 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">52515 ms</span>
+                <span class="method-start">104563 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

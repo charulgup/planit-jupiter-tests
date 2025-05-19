@@ -12,24 +12,33 @@ import org.testng.asserts.SoftAssert;
 
 public class ContactPageTests extends BaseTest {
 
+    // Test case 1:
+    // 1. From the home page go to contact page
+    // 2. Click submit button
+    // 3. Verify error messages
+    // 4. Populate mandatory fields
+    // 5. Validate errors are gone
     @Test
     public void testContactFormErrorMessages() {
+        // Navigate to contact page from home page
         ContactPage contact = new HomePage(driver).goToContactPage();
 
+        // Wait until the contact page form is visible
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("forename")));
 
+        // Click submit button without filling form to trigger validation errors
         contact.clickSubmit();
 
         SoftAssert softAssert = new SoftAssert();
 
-        // Verify header error message
+        // Verify header error message is displayed correctly
         String actualHeaderMsg = contact.getHeaderErrorMessage();
         softAssert.assertEquals(actualHeaderMsg,
             "We welcome your feedback - but we won't get it unless you complete the form correctly.",
             "Header error message mismatch");
 
-        // Verify individual field error messages
+        // Verify individual mandatory field error messages are displayed
         List<String> actualErrorMessages = contact.getFieldErrorMessages();
         String[] expectedMessages = {"Forename is required", "Email is required", "Message is required"};
 
@@ -44,9 +53,10 @@ public class ContactPageTests extends BaseTest {
             softAssert.assertTrue(found, "Expected error message not found: " + expected);
         }
 
-        // Fill form and verify error messages are cleared
+        // Fill in mandatory fields to clear errors
         contact.fillMandatoryFields("Charul", "charul@test.com", "This is a test message");
 
+        // Verify error messages are cleared after filling fields
         List<WebElement> errorElements = contact.getFieldErrorElements();
         for (WebElement errorElement : errorElements) {
             softAssert.assertTrue(errorElement.getText().isEmpty(),
@@ -56,19 +66,34 @@ public class ContactPageTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(invocationCount = 2)
+    // Test case 2:
+    // 1. From the home page go to contact page
+    // 2. Populate mandatory fields
+    // 3. Click submit button
+    // 4. Validate successful submission message
+    // Note: Run this test 5 times to ensure 100% pass rate (adjust invocationCount accordingly)
+    @Test(invocationCount = 5)
     public void testSuccessfulContactFormSubmission() throws InterruptedException {
+        // Navigate to contact page from home page
         ContactPage contact = new HomePage(driver).goToContactPage();
+
+        // Wait until the contact form is visible
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("forename")));
 
-        contact.fillMandatoryFields("John", "john@example.com", "This is a test message");
+        // Fill mandatory fields
+        contact.fillMandatoryFields("Gupta", "Gupta@test.com", "This is a test message");
+
+        // Click submit button to send form
         contact.clickSubmit();
 
         SoftAssert softAssert = new SoftAssert();
-        Thread.sleep(5000); // Optional: Replace with a better wait if needed
 
-        String expectedSuccessMsg = "Thanks John, we appreciate your feedback.";
+        // Wait for success message to appear (replace with better wait if possible)
+        Thread.sleep(5000);
+
+        // Verify success message text
+        String expectedSuccessMsg = "Thanks Gupta, we appreciate your feedback.";
         String actualSuccessMsg = contact.getSuccessMessage();
 
         softAssert.assertEquals(actualSuccessMsg, expectedSuccessMsg, "Success message mismatch");
