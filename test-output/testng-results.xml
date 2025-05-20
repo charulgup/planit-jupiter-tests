@@ -2,94 +2,94 @@
 <testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-19T22:04:22 ACST" name="PlanitJupiter Automation Suite" finished-at="2025-05-19T22:06:07 ACST" duration-ms="105458">
+  <suite started-at="2025-05-20T13:51:54 ACST" name="PlanitJupiter Automation Suite" finished-at="2025-05-20T13:53:32 ACST" duration-ms="98434">
     <groups>
     </groups>
-    <test started-at="2025-05-19T22:04:22 ACST" name="Jupiter UI Tests" finished-at="2025-05-19T22:06:07 ACST" duration-ms="105458">
+    <test started-at="2025-05-20T13:51:54 ACST" name="Jupiter UI Tests" finished-at="2025-05-20T13:53:32 ACST" duration-ms="98434">
       <class name="planittesting.automation.planit_jupiter_tests.ContactPageTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:04:22 ACST" name="setUp" finished-at="2025-05-19T22:04:30 ACST" duration-ms="7771" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:51:54 ACST" name="setUp" finished-at="2025-05-20T13:52:01 ACST" duration-ms="7079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testContactFormErrorMessages()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:04:30 ACST" name="testContactFormErrorMessages" finished-at="2025-05-19T22:04:35 ACST" duration-ms="4989" status="PASS">
+        <test-method signature="testContactFormErrorMessages()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:01 ACST" name="testContactFormErrorMessages" finished-at="2025-05-20T13:52:08 ACST" duration-ms="6293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testContactFormErrorMessages -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:04:35 ACST" name="tearDown" finished-at="2025-05-19T22:04:35 ACST" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:08 ACST" name="tearDown" finished-at="2025-05-20T13:52:08 ACST" duration-ms="335" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:04:35 ACST" name="setUp" finished-at="2025-05-19T22:04:40 ACST" duration-ms="5024" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:08 ACST" name="setUp" finished-at="2025-05-20T13:52:15 ACST" duration-ms="7241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:04:40 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-19T22:04:50 ACST" duration-ms="10049" status="PASS">
+        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:15 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-20T13:52:22 ACST" duration-ms="6732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulContactFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:04:50 ACST" name="tearDown" finished-at="2025-05-19T22:04:51 ACST" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:22 ACST" name="tearDown" finished-at="2025-05-20T13:52:22 ACST" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:04:51 ACST" name="setUp" finished-at="2025-05-19T22:04:56 ACST" duration-ms="5691" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:22 ACST" name="setUp" finished-at="2025-05-20T13:52:28 ACST" duration-ms="5837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:04:56 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-19T22:05:09 ACST" duration-ms="12051" status="PASS">
+        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:28 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-20T13:52:37 ACST" duration-ms="9009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulContactFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:09 ACST" name="tearDown" finished-at="2025-05-19T22:05:09 ACST" duration-ms="403" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:37 ACST" name="tearDown" finished-at="2025-05-20T13:52:38 ACST" duration-ms="466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:09 ACST" name="setUp" finished-at="2025-05-19T22:05:15 ACST" duration-ms="6051" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:38 ACST" name="setUp" finished-at="2025-05-20T13:52:42 ACST" duration-ms="4536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:15 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-19T22:05:25 ACST" duration-ms="10125" status="PASS">
+        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:42 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-20T13:52:49 ACST" duration-ms="6622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulContactFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:25 ACST" name="tearDown" finished-at="2025-05-19T22:05:26 ACST" duration-ms="414" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:49 ACST" name="tearDown" finished-at="2025-05-20T13:52:49 ACST" duration-ms="433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:26 ACST" name="setUp" finished-at="2025-05-19T22:05:31 ACST" duration-ms="5321" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:49 ACST" name="setUp" finished-at="2025-05-20T13:52:53 ACST" duration-ms="3981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:31 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-19T22:05:40 ACST" duration-ms="9270" status="PASS">
+        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:52:53 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-20T13:53:03 ACST" duration-ms="9518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulContactFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:40 ACST" name="tearDown" finished-at="2025-05-19T22:05:40 ACST" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:53:03 ACST" name="tearDown" finished-at="2025-05-20T13:53:03 ACST" duration-ms="432" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:40 ACST" name="setUp" finished-at="2025-05-19T22:05:46 ACST" duration-ms="5007" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:53:03 ACST" name="setUp" finished-at="2025-05-20T13:53:09 ACST" duration-ms="5813" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:46 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-19T22:05:55 ACST" duration-ms="9482" status="PASS">
+        <test-method signature="testSuccessfulContactFormSubmission()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:53:09 ACST" name="testSuccessfulContactFormSubmission" finished-at="2025-05-20T13:53:17 ACST" duration-ms="7996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSuccessfulContactFormSubmission -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-19T22:05:55 ACST" name="tearDown" finished-at="2025-05-19T22:05:55 ACST" duration-ms="375" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ContactPageTests@6150c3ec]" started-at="2025-05-20T13:53:17 ACST" name="tearDown" finished-at="2025-05-20T13:53:17 ACST" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- planittesting.automation.planit_jupiter_tests.ContactPageTests -->
       <class name="planittesting.automation.planit_jupiter_tests.ShoppingCartTests">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@302552ec]" started-at="2025-05-19T22:05:55 ACST" name="setUp" finished-at="2025-05-19T22:06:02 ACST" duration-ms="6580" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@302552ec]" started-at="2025-05-20T13:53:17 ACST" name="setUp" finished-at="2025-05-20T13:53:23 ACST" duration-ms="5593" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testShoppingCartFunctionality()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@302552ec]" started-at="2025-05-19T22:06:02 ACST" name="testShoppingCartFunctionality" finished-at="2025-05-19T22:06:07 ACST" duration-ms="4854" status="PASS">
+        <test-method signature="testShoppingCartFunctionality()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@302552ec]" started-at="2025-05-20T13:53:23 ACST" name="testShoppingCartFunctionality" finished-at="2025-05-20T13:53:32 ACST" duration-ms="9091" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testShoppingCartFunctionality -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@302552ec]" started-at="2025-05-19T22:06:07 ACST" name="tearDown" finished-at="2025-05-19T22:06:07 ACST" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:planittesting.automation.planit_jupiter_tests.ShoppingCartTests@302552ec]" started-at="2025-05-20T13:53:32 ACST" name="tearDown" finished-at="2025-05-20T13:53:32 ACST" duration-ms="241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
