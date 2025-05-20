@@ -2,6 +2,7 @@ package planittesting.automation.planit_jupiter_tests;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
+import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -35,6 +36,7 @@ public class ContactPage extends BasePage {
 
 	// Clicks the Submit button on the contact form
 	public void clickSubmit() {
+		wait.until(ExpectedConditions.visibilityOf(submitBtn));
 		submitBtn.click();
 	}
 
