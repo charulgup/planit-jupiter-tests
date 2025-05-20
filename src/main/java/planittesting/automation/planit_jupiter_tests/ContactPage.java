@@ -4,6 +4,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.support.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
 import java.time.Duration;
 import java.util.List;
 
@@ -20,7 +21,7 @@ public class ContactPage extends BasePage {
 	private WebElement submitBtn; // Submit button element
 	@FindBy(css = ".alert.alert-success")
 	private WebElement successMsg; // Success alert message element
-	@FindBy(css = ".alert-error li")
+	@FindBy(css = ".alert alert-success")
 	private WebElement errorMessages; // List item elements for individual error messages
 	@FindBy(css = "div.alert.alert-error.ng-scope")
 	private WebElement headerErrorMessage; // Header error message element
@@ -57,6 +58,7 @@ public class ContactPage extends BasePage {
 	private String enteredForename;
 
 	public void fillMandatoryFields(String forename, String email, String message) {
+		wait.until(ExpectedConditions.visibilityOf(forenameInput));
 		forenameInput.clear();
 		forenameInput.sendKeys(forename);
 		enteredForename = forename;
@@ -75,6 +77,7 @@ public class ContactPage extends BasePage {
 
 	// Waits for the success message to appear and returns its trimmed text
 	public String getSuccessMessage() {
+		wait = new WebDriverWait(driver, Duration.ofSeconds(15));
 	WebElement alert = wait.until(ExpectedConditions.visibilityOf(successMsg));
 		return alert.getText().trim();
 	}
